@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch-a-Sketch</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Etch-a-Sketch</h1>
+    </header>
+    <section class="main-section">
+
+        <section class="settings-section">
+            <h2>Grid Size: </h2>
+            <h3 id="size-display">4 X 4</h3>
+            <input type="range" min="4" max="46" id="range-input" value="4">
+            <h2>Color: </h2>
+            <input type="color" id="color-input">
+            <h2>Mode: </h2>
+            <button id="eraser-btn">Eraser</button>
+            <button id="rainbow-btn">Rainbow</button>
+        </section>
+
+        <section class="grid-section">
+            <div id="grid-container">
+                <div class="grid-item" style="width: 25%; height: 25%;"></div>
+                <div class="grid-item" style="width: 25%; height: 25%;"></div>
+                <div class="grid-item" style="width: 25%; height: 25%;"></div>
+                <div class="grid-item" style="width: 25%; height: 25%;"></div>
+                <div class="grid-item" style="width: 25%; height: 25%;"></div>
+                <div class="grid-item" style="width: 25%; height: 25%;"></div>
+                <div class="grid-item" style="width: 25%; height: 25%;"></div>
+                <div class="grid-item" style="width: 25%; height: 25%;"></div>
+                <div class="grid-item" style="width: 25%; height: 25%;"></div>
+                <div class="grid-item" style="width: 25%; height: 25%;"></div>
+                <div class="grid-item" style="width: 25%; height: 25%;"></div>
+                <div class="grid-item" style="width: 25%; height: 25%;"></div>
+                <div class="grid-item" style="width: 25%; height: 25%;"></div>
+                <div class="grid-item" style="width: 25%; height: 25%;"></div>
+                <div class="grid-item" style="width: 25%; height: 25%;"></div>
+                <div class="grid-item" style="width: 25%; height: 25%;"></div>
+            </div>
+            <button id="clear-btn">clear</button>
+        </section>
+
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
